@@ -1,0 +1,20 @@
+.history {
+  width: 830px;
+  margin: 50px auto;
+}
+.thead {
+  height: 50px;
+  text-transform: uppercase;
+  background-color: rgb(21, 175, 203);
+  font-size: 0.8rem;
+  color: white;
+}
+.row {
+  height: 50px;
+  text-align: center;
+  color: rgb(136, 137, 139);
+  text-transform: capitalize;
+}
+.row:nth-child(even) {
+  background-color: rgb(231, 238, 241);
+}

@@ -1,0 +1,33 @@
+.item {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+
+  box-shadow: -5px 0px 5px -3px rgba(0, 0, 0, 0.5),
+    /* Тень слева */ 5px 0px 5px -3px rgba(0, 0, 0, 0.5),
+    /* Тень справа */ 0px 5px 5px -3px rgba(0, 0, 0, 0.5); /* Тень снизу */
+}
+
+.statusOn,
+.statusOff {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.statusOn {
+  background-color: green;
+}
+.statusOff {
+  background-color: red;
+}
+
+.avatar {
+  width: 85px;
+}
+.name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
